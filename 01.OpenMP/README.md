@@ -16,26 +16,26 @@ $A = Tr(BC^3)E+Tr'(B)I$,
 ## Использование
 ### Конфигурирование
 В корне проекта:
-```shell
-01.OpenMP$ mkdir build
-01.OpenMP$ cd build
-01.OpenMP/build$ cmake ..
+```console
+usr:~/01.OpenMP$ mkdir build
+usr:~/01.OpenMP$ cd build
+usr:~/01.OpenMP/build$ cmake ..
 ```
 ### Сборка
-```shell
-01.OpenMP/build$ cmake --build .
+```console
+usr:~/01.OpenMP/build$ cmake --build .
 ```
 ### Запуск примера
-```shell
-01.OpenMP/build$ ./HPC_01_OpenMP
+```console
+usr:~/01.OpenMP/build$ ./HPC_01_OpenMP
 ```
 ### Запуск тестов
-```shell
-01.OpenMP/build$ ctest
+```console
+usr:~/01.OpenMP/build$ ctest
 ```
 ### Запуск бенчмарков
-```shell
-01.OpenMP/build$ ./HPC_01_benchmark
+```console
+usr:~/01.OpenMP/build$ ./HPC_01_benchmark
 ```
 
 ## Структура проекта
